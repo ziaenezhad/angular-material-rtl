@@ -1,0 +1,10 @@
+@mixin md-font($font) {
+	font-family: $font;
+	button, select, html, textarea, input {
+		font-family: $font;
+	}
+	.md-chips{
+		padding: 0 3px 8px 0;
+		font-family:  $font;
+	}
+}

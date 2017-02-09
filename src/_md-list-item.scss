@@ -1,0 +1,22 @@
+md-list-item{
+	&.md-no-proxy.md-button,
+	&.md-no-style.md-button {
+		text-align: right !important;
+	}
+	
+	&.md-avatar, 
+	&.md-avatar-icon, 
+	&.md-list-item-inner .md-avatar, 
+	&.md-list-item-inner .md-avatar-icon {
+	    margin-right: initial;
+	    margin-left: 16px;
+	}
+
+	&.md-secondary-container, 
+	&.md-secondary, 
+	&.md-list-item-inner .md-secondary-container, 
+	&.md-list-item-inner .md-secondary {
+	    right: initial;
+	    left: 16px;
+	}
+}

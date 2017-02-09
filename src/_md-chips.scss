@@ -1,0 +1,26 @@
+.md-chips{
+	padding: 0 3px 8px 0;
+	font-weight: bold;
+	md-chip {
+    	float: right;
+    	padding: 0 0 0 16px;
+	    .md-chip-remove-container {
+		    left: 5px;
+		    right:initial;
+		}
+		.md-chip-content {
+    		padding-left: 25px;
+    		padding-right: initial;
+    	}
+    	.md-contact-avatar {
+		    float: right;
+		}
+		.md-contact-name {
+		    margin-left: initial;
+		    margin-right: 8px;
+		}
+    }
+    .md-chip-input-container {
+	    float: right;
+	}
+}

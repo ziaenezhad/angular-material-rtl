@@ -1,0 +1,7 @@
+@mixin mirror-horizental() {
+	transform: scaleX(-1);
+}
+
+.mirror-horizental{
+	@include mirror-horizental();
+}

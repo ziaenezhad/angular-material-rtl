@@ -1,0 +1,5 @@
+@import "mixins/mirror-horizental";
+
+md-progress-linear{
+	@include mirror-horizental();
+}

@@ -1,0 +1,5 @@
+@import "mixins/mirror-horizental";
+
+md-icon{
+	@include mirror-horizental();
+}

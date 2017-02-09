@@ -1,0 +1,36 @@
+{
+  "name": "angular-material-rtl",
+  "version": "0.1.5",
+  "description": "RTL(Right To Left) support for Angular Material",
+  "keywords": [
+    "angular",
+    "material",
+    "sass",
+    "rtl",
+    "right to left"
+  ],
+  "authors": [
+    {
+      "name": "Sajjad Shirazy",
+      "email": "shirazy.sajjad@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajjad-shirazy/angular-material-rtl.git"
+  },
+  "license": "MIT",
+  "main": [
+    "dist/md-rtl.css"
+  ],
+  "ignore": [
+    "*.*",
+    "bower",
+    "modules",
+    "node_modules"
+    "test"
+  ],
+  "dependencies": {
+    "angular-material": "^1.1.1",
+  }
+}

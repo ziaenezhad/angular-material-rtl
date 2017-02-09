@@ -1,0 +1,11 @@
+{
+  "name": "angualr-material-rtl",
+  "version": "0.1.0",
+  "description": "RTL(Right To Left) support for Angular Material",
+  "main": "dist/md-rtl.css",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-sass": "*"
+  }
+}

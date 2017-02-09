@@ -1,0 +1,10 @@
+
+md-input-container
+{
+	& label:not(.md-no-float):not(.md-container-ignore),
+	& .md-placeholder {
+	    transform-origin: right top;
+	    padding-left: initial;
+	    left: initial;
+	}
+}

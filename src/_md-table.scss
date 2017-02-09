@@ -1,0 +1,27 @@
+.md-table-pagination{
+	direction:ltr;
+	justify-content: flex-start;
+	md-icon{
+		transform: initial;
+	}
+	.buttons{
+		transform: scaleX(-1);
+		.label.ng-binding{
+			transform: scaleX(-1);
+			direction: rtl;
+		}
+	}
+}
+table.md-table td.md-cell, table.md-table th.md-column {
+    text-align: right !important;
+}
+
+.md-table-toolbar {
+  button{
+  	position: absolute;
+  	left:0;
+  	right:initial;
+  	padding-left: 50px;
+    margin-right: -12px !important;
+  }
+}

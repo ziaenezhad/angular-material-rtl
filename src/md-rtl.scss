@@ -1,0 +1,21 @@
+@import "mixins/md-font";
+@import "mixins/mirror-horizental";
+
+.md-rtl{
+	direction:rtl;
+	@import "md-autocomplete";
+	@import "md-checkbox";
+	@import "md-chips";
+	@import "md-icon";
+	@import "md-input";
+	@import "md-list-item";
+	@import "md-menu";
+	@import "md-progress";
+	@import "md-sidenav";
+	@import "md-table";
+	@import "md-toolbar";
+}
+
+.md-ltr{
+	direction:ltr;
+}
